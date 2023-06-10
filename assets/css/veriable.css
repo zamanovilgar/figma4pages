@@ -1,0 +1,35 @@
+:root {
+    /* FONTS */
+    --fontPoppins:"Poppins", sans-serif;
+
+
+
+
+
+    /* COLORS */
+--mainBGcolor:#1090CB1A;
+
+--mainTextBlack:#000000;
+--mainTextDark:#252525;
+
+--mainTextBlue:#1090CB;
+--mainTextBlue2:#00329B;
+--mainDotBlue:#08D3BB;
+
+--mainWhite:#FFFFFF;
+
+--mainTextGrey:#5C5C5C;
+--mainTextGrey2:#969696;
+--mainTextGrey3:#868686;
+--mainTextGrey4:#787878;
+--mainTextGrey5:#545454;
+--mainTextGrey6:#515151;
+--mainTextGrey7:#424242;
+--mainTextGrey8:#686868;
+--mainTextGrey9:#FFF4F4;
+-mainTextGrey10:#797979;
+
+
+
+
+}
