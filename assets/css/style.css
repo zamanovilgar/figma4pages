@@ -7,8 +7,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: var(--mainBGwhite);
-  border-bottom: 0.7px solid #C4C4C4;
-  ;
+  border-bottom: 0.7px solid #c4c4c4;
 }
 .logo {
   font-size: 29px;
@@ -42,6 +41,11 @@ body {
 .navbar li:first-child a {
   color: var(--mainTextBlue);
 }
+.navbar li:first-child a:before {
+  content: ".";
+  color: var(--mainTextBlue);
+}
+
 .header-btn {
   border: none;
   background-color: var(--mainTextBlue);
@@ -55,4 +59,97 @@ body {
   text-align: center;
 
   color: var(--mainWhite);
+}
+
+/* --------SECTION1------ */
+.sec1 {
+  background-color: var(--mainBGcolor);
+  display: flex;
+  gap: 25px;
+}
+.sec1-box1 {
+  margin-left: 123px;
+  margin-top: 128px;
+}
+.sec1-box1 h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 61px;
+  color: var(--mainTextBlack);
+
+  /* height: 193px; */
+
+  margin-bottom: 16px;
+}
+.sec1-box1 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32.69px;
+  color: var(--mainTextGrey);
+
+  margin-bottom: 65px;
+}
+.sec1-box1-btn {
+  display: flex;
+  gap: 15px;
+}
+.sec1-btn1 {
+  border: none;
+  background-color: var(--mainTextBlue);
+  border-radius: 10px;
+  width: 193px;
+  height: 51px;
+  color: var(--mainWhite);
+}
+.sec1-btn2 {
+  border: none;
+  background-color: var(--mainWhite);
+  border-radius: 10px;
+  width: 193px;
+  height: 51px;
+  color: var(--mainTextBlue);
+  border: 1px solid var(--mainTextBlue);
+}
+.sec1-box2 {
+  margin-right: 65px;
+  margin: top 23px;
+}
+
+/* SECTION-BOTTOM */
+.sec1-bottom {
+  /* background-color: var(--mainBGwhite); */
+  border-bottom: 0.7px solid #c7c7c7;
+}
+.sec1-bottom-all {
+  /* margin-left: 123px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: var(--mainBGwhite); */
+}
+
+.sec1-botttom-folder {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 266px;
+  height: 83px;
+  margin-top: 43px;
+}
+.sec1-bottom-p {
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; */
+}
+.sec1-bottom-p1 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  color: var(--mainTextBlack);
+}
+.sec1-bottom-p2 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26.25px;
+  color: var(--mainTextGrey2);
 }
