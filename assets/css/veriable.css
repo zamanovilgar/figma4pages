@@ -1,37 +1,33 @@
 :root {
-    /* FONTS */
-    --fontPoppins:"Poppins", sans-serif;
+  /* FONTS */
+  --fontPoppins: "Poppins", sans-serif;
 
+  /* COLORS */
+  --mainBGcolor: #1090cb1a;
 
+  --mainTextBlack: #000000;
+  --mainTextDark: #252525;
 
+  --mainTextBlue: #1090cb;
+  --mainTextBlue2: #00329b;
+  --mainDotBlue: #08d3bb;
+  --mainTextBlue3: #2e0d64;
 
+  --mainWhite: #ffffff;
+  --mainWhite2: #f4f4f4;
 
-    /* COLORS */
---mainBGcolor:#1090CB1A;
+  --mainTextGrey: #5c5c5c;
+  --mainTextGrey2: #969696;
+  --mainTextGrey3: #868686;
+  --mainTextGrey4: #787878;
+  --mainTextGrey5: #545454;
+  --mainTextGrey6: #515151;
+  --mainTextGrey7: #424242;
+  --mainTextGrey8: #686868;
+  --mainTextGrey9: #fff4f4;
+  --mainTextGrey10: #797979;
+  --mainTextGrey11: #585858;
 
---mainTextBlack:#000000;
---mainTextDark:#252525;
-
---mainTextBlue:#1090CB;
---mainTextBlue2:#00329B;
---mainDotBlue:#08D3BB;
-
---mainWhite:#FFFFFF;
---mainWhite2:#F4F4F4;
-
---mainTextGrey:#5C5C5C;
---mainTextGrey2:#969696;
---mainTextGrey3:#868686;
---mainTextGrey4:#787878;
---mainTextGrey5:#545454;
---mainTextGrey6:#515151;
---mainTextGrey7:#424242;
---mainTextGrey8:#686868;
---mainTextGrey9:#FFF4F4;
---mainTextGrey10:#797979;
-
---mainBGwhite:#E5E5E5;
---mainHeaderTop:#E8F4FA;
-
-
+  --mainBGwhite: #e5e5e5;
+  --mainHeaderTop: #e8f4fa;
 }
