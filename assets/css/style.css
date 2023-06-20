@@ -359,18 +359,23 @@ h3 span {
   text-align: center;
   background-color: var(--mainHeaderTop);
 }
-.footer-top p {
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 51px;
-  align-items: center;
-  color: var(--mainTextDark);
-  /* height: 91px; */
-  /* width: 516px; */
-  /* margin-bottom: 80px; */
-  /* margin-top: 148px; */
-  padding-top: 148px;
+.star1 {
+  height: 66.00000102140892px;
+  width: 66.00000102140892px;
+  left: 167px;
+  top: 4180.6837158203125px;
+  position: absolute;
+  transform: rotate(-24.8deg);
 }
+.pai-chart1 {
+  height: 54px;
+  width: 54px;
+  /* left: 1189px; */
+  left: 65%;
+  top: 4343.0001220703125px;
+  position: absolute;
+}
+
 .footer-top input {
   height: 67px;
   width: 532px;
@@ -406,6 +411,18 @@ placeholder {
   /* gap: 50px; */
   margin-bottom: 56px;
   margin-top: 56px;
+}
+.printing {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--mainTextDark);
+  height: 91px;
+  width: 516px;
+  padding-top: 148px;
+  margin:0 auto 80px auto
 }
 .f-l {
   font-size: 16px;
