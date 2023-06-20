@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--mainBGwhite);
+  background-color: var(--mainWhite);
   border-bottom: 0.7px solid #c4c4c4;
 }
 .logo {
