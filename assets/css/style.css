@@ -63,10 +63,20 @@ body {
 }
 
 /* --------SECTION1------ */
+vector-right {
+  position: absolute;
+  z-index: 6;
+  height: 531px;
+  width: 475px;
+  left: 1375px;
+  top: 391px;
+}
 .sec1 {
   background-color: var(--mainBGcolor);
   display: flex;
   gap: 25px;
+  position: relative;
+  z-index: 5;
 }
 .sec1-box1 {
   margin-left: 123px;
@@ -422,7 +432,7 @@ placeholder {
   height: 91px;
   width: 516px;
   padding-top: 148px;
-  margin:0 auto 80px auto
+  margin: 0 auto 80px auto;
 }
 .f-l {
   font-size: 16px;
