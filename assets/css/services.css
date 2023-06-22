@@ -6,6 +6,12 @@
   position: relative;
   z-index: 1;
 }
+.succlent2 {
+  position: absolute;
+  top: 334px;
+  left: 75%;
+}
+
 .our-services {
   display: flex;
   flex-direction: column;

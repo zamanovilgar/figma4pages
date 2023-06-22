@@ -2,11 +2,21 @@
   color: var(--mainTextBlue);
 }
 .sec10 {
+  /* position: relative; */
   display: flex;
   flex-direction: column;
   background-color: var(--mainWhite);
   /* gap: 60px; */
   /* background-color: var(--mainBGwhite); */
+}
+.vector30 {
+  position: absolute;
+  right:  0;
+  top:200px
+}
+.vector31 {
+  position: absolute;
+  top: 664px;
 }
 .sec1-top {
   display: flex;
@@ -177,6 +187,26 @@
   line-height: 44px;
   letter-spacing: 0.01em;
   text-align: center;
+}
+.sec22-img1 {
+  border-radius: 20px;
+  background: #fff2f2;
+  padding: 24px;
+}
+.sec22-img2 {
+  border-radius: 20px;
+  background: #e2f3ff;
+  padding: 24px;
+}
+.sec22-img3 {
+  border-radius: 20px;
+  background: #f1e8ff;
+  padding: 24px;
+}
+.sec22-img4 {
+  border-radius: 20px;
+  background: #ffe7fb;
+  padding: 24px;
 }
 .star {
   height: 66.00000102140892px;

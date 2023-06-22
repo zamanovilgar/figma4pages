@@ -210,7 +210,8 @@
   border: none;
   margin-bottom: 57px;
 }
-.btn-blue {margin-bottom: 63px;
+.btn-blue {
+  margin-bottom: 63px;
   /* width: 100%; */
   /* justify-content: end; */
 }
